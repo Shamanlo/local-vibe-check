@@ -1,0 +1,10 @@
+{
+  "name": "localvibecheck",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "images": "node scripts/build.mjs && node scripts/render-images.mjs && node scripts/build.mjs",
+    "serve": "npx serve public"
+  }
+}

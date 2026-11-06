@@ -1,0 +1,99 @@
+{
+  "All Exclusive Construction": {
+    "legalName": "All Exclusive Construction, Inc.",
+    "logo": "/img/biz/all-exclusive-construction.png",
+    "type": "General contractor",
+    "summary": "A locally owned and operated general contractor serving Southern California since 2018. One team runs the whole project: design, permits, the build itself, and the final walkthrough.",
+    "website": "https://www.allexclusivepro.com/",
+    "phone": "(818) 836-1722",
+    "license": "CA Lic. #1120170",
+    "rating": "5.0 Google rating at all three locations (as of November 2026)",
+    "hours": "Mon–Fri, 8 AM – 4:30 PM",
+    "youtube": "https://www.youtube.com/@AllExclusiveConstruction",
+    "locations": [
+      { "label": "Santa Monica", "address": "301 Arizona Ave, Santa Monica, CA 90401" },
+      { "label": "Westlake Village", "address": "2945 Townsgate Rd Ste 200, Westlake Village, CA 91361" },
+      { "label": "Santa Clarita", "address": "Serving the Santa Clarita Valley" }
+    ],
+    "serves": "Santa Monica, Westlake Village, Santa Clarita, Malibu, Calabasas, Thousand Oaks, Beverly Hills, Pacific Palisades, Culver City, Agoura Hills and more across L.A. and Ventura Counties",
+    "services": ["Kitchen remodeling", "Bathroom remodeling", "ADU construction", "Home additions", "Whole-home remodels", "Decks", "Commercial remodeling"]
+  },
+  "New Kitchens of Culver City": {
+    "type": "Kitchen remodeler",
+    "website": "https://kitchenremodelingculvercity.com/culver-city-kitchen-remodeling-pricing-comparison",
+    "email": "info@kitchenremodelingculvercity.com",
+    "hours": "Mon–Sat, 8 AM – 6 PM",
+    "serves": "Culver City, including Sunkist Park, Carlson Park and Fox Hills"
+  },
+  "New Kitchens of Westlake": {
+    "type": "Kitchen remodeler",
+    "website": "https://kitchenremodelingwestlake.com/westlake-kitchen-remodeling-pricing-comparison",
+    "email": "info@kitchenremodelingwestlake.com",
+    "hours": "Mon–Sat, 8 AM – 6 PM",
+    "serves": "Westlake, including North Ranch, Three Springs and Westlake Island"
+  },
+  "New Kitchens of Pacific Palisades": {
+    "type": "Kitchen remodeler",
+    "website": "https://kitchenremodelingpacificpalisades.com/pacific-palisades-kitchen-remodeling-pricing-comparison",
+    "email": "info@kitchenremodelingpacificpalisades.com",
+    "hours": "Mon–Sat, 8 AM – 6 PM",
+    "serves": "Pacific Palisades, including The Highlands, Huntington Palisades and Rustic Canyon"
+  },
+  "New Kitchens of Calabasas": {
+    "type": "Kitchen remodeler",
+    "website": "https://kitchenremodelingcalabasas.com/calabasas-kitchen-remodeling-pricing-comparison",
+    "email": "info@kitchenremodelingcalabasas.com",
+    "hours": "Mon–Sat, 8 AM – 6 PM",
+    "serves": "Calabasas, including The Oaks, Calabasas Hills and Mountain View Estates"
+  },
+  "New Kitchens of Beverly Hills": {
+    "type": "Kitchen remodeler",
+    "website": "https://kitchenremodelingbeverlyhills.com/beverly-hills-kitchen-remodeling-pricing-comparison",
+    "email": "info@kitchenremodelingbeverlyhills.com",
+    "hours": "Mon–Sat, 8 AM – 6 PM",
+    "serves": "Beverly Hills, including Trousdale Estates, the Flats and Beverly Hills Gateway"
+  },
+  "New Kitchens of Los Angeles": {
+    "type": "Kitchen remodeler",
+    "website": "https://kitchenremodelinglosangeles.org/los-angeles-kitchen-remodeling-pricing-comparison",
+    "serves": "Los Angeles, from Los Feliz to Sherman Oaks"
+  },
+  "Michel Cuevas Home Improvement": {
+    "type": "Roofing contractor",
+    "summary": "Family-owned in Iowa City since 1997, with its own crews and no subcontractors.",
+    "website": "https://www.michelcuevashome.com/",
+    "phone": "(319) 333-5046",
+    "license": "Licensed, insured & bonded",
+    "locations": [{ "label": "Iowa City", "address": "1570 1st Ave, Unit M, Iowa City, IA 52240" }],
+    "serves": "Iowa City, Coralville, North Liberty, Cedar Rapids, West Liberty, Washington and the Corridor"
+  },
+  "A-1 Sewer Service": {
+    "type": "Drain cleaning & plumbing",
+    "website": "https://a1seweriowacity.com/",
+    "phone": "(319) 600-4224",
+    "rating": "5.0★ on Google",
+    "hours": "Open 24/7 · no after-hours fees until 8 PM, weekends included",
+    "locations": [{ "label": "Iowa City", "address": "738 Bay Ridge Dr, Iowa City, IA 52246" }]
+  },
+  "Window Film Marketing Agency": {
+    "type": "Marketing agency",
+    "summary": "Marketing built only for window film companies: local SEO, Google Business Profile and AI search.",
+    "website": "https://windowfilmmarketingagency.com/",
+    "email": "info@windowfilmmarketingagency.com"
+  },
+  "Iowa AEO": {
+    "type": "AEO agency",
+    "summary": "AI visibility audits, listing cleanup, answer-ready pages and monthly re-testing across ChatGPT, Gemini, Perplexity, Claude and Google AI Overviews.",
+    "website": "https://iowaaeo.com/",
+    "phone": "(515) 690-6632",
+    "serves": "Des Moines, Cedar Rapids, Iowa City, the Quad Cities and all of Iowa"
+  },
+  "Indian Valley Outfitters": {
+    "type": "Hunting outfitter",
+    "summary": "Guided and unguided hunts on private, game-managed ranch land in southern Monterey County, with lodging on the property.",
+    "website": "https://indianvalleyoutfitters.com/",
+    "phone": "(669) 270-7127",
+    "hours": "Mon–Sat, 8 AM – 6 PM",
+    "locations": [{ "label": "San Miguel", "address": "65800 Big Sandy Rd, San Miguel, CA 93451" }]
+  }
+}
