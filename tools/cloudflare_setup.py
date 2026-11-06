@@ -22,7 +22,8 @@ DOMAIN = os.environ.get("DOMAIN", "localvibecheck.site")
 HOSTS = [DOMAIN, "www." + DOMAIN]
 
 # Registrar parking records that block the site; anything else is left alone.
-PARKING = ("162.255.119.153", "parkingpage.namecheap.com")
+# (Namecheap parks on 162.255.119.x / 192.64.119.x; Cloudflare copies those in when a domain is added.)
+PARKING = ("162.255.119.", "192.64.119.", "parkingpage.namecheap.com")
 
 
 def call(method, path, body=None, ok=(200,)):
