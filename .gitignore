@@ -2,3 +2,4 @@ node_modules/
 public/
 scripts/.award-jobs.json
 .DS_Store
+.wrangler/
