@@ -11,12 +11,29 @@
     "hours": "Mon–Fri, 8 AM – 4:30 PM",
     "youtube": "https://www.youtube.com/@AllExclusiveConstruction",
     "locations": [
-      { "label": "Santa Monica", "address": "301 Arizona Ave, Santa Monica, CA 90401" },
-      { "label": "Westlake Village", "address": "2945 Townsgate Rd Ste 200, Westlake Village, CA 91361" },
-      { "label": "Santa Clarita", "address": "Serving the Santa Clarita Valley" }
+      {
+        "label": "Santa Monica",
+        "address": "301 Arizona Ave, Santa Monica, CA 90401"
+      },
+      {
+        "label": "Westlake Village",
+        "address": "2945 Townsgate Rd Ste 200, Westlake Village, CA 91361"
+      },
+      {
+        "label": "Santa Clarita",
+        "address": "Serving the Santa Clarita Valley"
+      }
     ],
     "serves": "Santa Monica, Westlake Village, Santa Clarita, Malibu, Calabasas, Thousand Oaks, Beverly Hills, Pacific Palisades, Culver City, Agoura Hills and more across L.A. and Ventura Counties",
-    "services": ["Kitchen remodeling", "Bathroom remodeling", "ADU construction", "Home additions", "Whole-home remodels", "Decks", "Commercial remodeling"]
+    "services": [
+      "Kitchen remodeling",
+      "Bathroom remodeling",
+      "ADU construction",
+      "Home additions",
+      "Whole-home remodels",
+      "Decks",
+      "Commercial remodeling"
+    ]
   },
   "New Kitchens of Culver City": {
     "type": "Kitchen remodeler",
@@ -59,13 +76,35 @@
     "serves": "Los Angeles, from Los Feliz to Sherman Oaks"
   },
   "Michel Cuevas Home Improvement": {
-    "type": "Roofing contractor",
-    "summary": "Family-owned in Iowa City since 1997, with its own crews and no subcontractors.",
+    "type": "Roofing, siding & storm restoration",
+    "summary": "Family-owned in Iowa City since 1997. Roofing is the signature work: every reroof starts with a full tear-off and deck inspection, with ice-and-water shield along the eaves and impact-resistant shingle options for hail country.",
     "website": "https://www.michelcuevashome.com/",
     "phone": "(319) 333-5046",
     "license": "Licensed, insured & bonded",
-    "locations": [{ "label": "Iowa City", "address": "1570 1st Ave, Unit M, Iowa City, IA 52240" }],
-    "serves": "Iowa City, Coralville, North Liberty, Cedar Rapids, West Liberty, Washington and the Corridor"
+    "locations": [
+      {
+        "label": "Iowa City",
+        "address": "1570 1st Ave, Unit M, Iowa City, IA 52240"
+      },
+      {
+        "label": "Clarence",
+        "address": "510 Lombard US Highway 30, Clarence, IA 52216"
+      }
+    ],
+    "serves": "Iowa City, Coralville, North Liberty, Cedar Rapids, West Liberty, Washington, Muscatine, Maquoketa, Mt. Pleasant and Clarence",
+    "logo": "/img/biz/michel-cuevas-home-improvement.png",
+    "rating": "4.7 stars on Google (13 reviews, as of November 2026)",
+    "hours": "Mon–Sat, 7 AM – 6 PM",
+    "youtube": "https://www.youtube.com/@MichelCuevasHomeImprovement",
+    "services": [
+      "Roofing",
+      "Siding",
+      "Storm damage restoration",
+      "Emergency tarping",
+      "Concrete",
+      "Remodels",
+      "Water & fire damage restoration"
+    ]
   },
   "A-1 Sewer Service": {
     "type": "Drain cleaning & plumbing",
@@ -73,7 +112,12 @@
     "phone": "(319) 600-4224",
     "rating": "5.0★ on Google",
     "hours": "Open 24/7 · no after-hours fees until 8 PM, weekends included",
-    "locations": [{ "label": "Iowa City", "address": "738 Bay Ridge Dr, Iowa City, IA 52246" }]
+    "locations": [
+      {
+        "label": "Iowa City",
+        "address": "738 Bay Ridge Dr, Iowa City, IA 52246"
+      }
+    ]
   },
   "Window Film Marketing Agency": {
     "type": "Marketing agency",
@@ -94,6 +138,18 @@
     "website": "https://indianvalleyoutfitters.com/",
     "phone": "(669) 270-7127",
     "hours": "Mon–Sat, 8 AM – 6 PM",
-    "locations": [{ "label": "San Miguel", "address": "65800 Big Sandy Rd, San Miguel, CA 93451" }]
+    "locations": [
+      {
+        "label": "San Miguel",
+        "address": "65800 Big Sandy Rd, San Miguel, CA 93451"
+      }
+    ]
+  },
+  "New Kitchens of Thousand Oaks": {
+    "type": "Kitchen remodeler",
+    "website": "https://kitchenremodelingthousandoaks.com/thousand-oaks-kitchen-remodeling-pricing-comparison",
+    "email": "info@kitchenremodelingthousandoaks.com",
+    "hours": "Mon–Sat, 8 AM – 6 PM",
+    "serves": "Thousand Oaks, including Newbury Park, North Ranch and Lynn Ranch"
   }
 }

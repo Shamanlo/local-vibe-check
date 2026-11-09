@@ -1,14 +1,93 @@
 {
-  "santa-monica-ca": { "name": "Santa Monica", "state": "California", "abbr": "CA", "region": "Los Angeles County", "blurb": "Beach-city homes on small lots, where ADUs and smart remodels make the most of every square foot." },
-  "westlake-village-ca": { "name": "Westlake Village", "state": "California", "abbr": "CA", "region": "Conejo Valley", "blurb": "Lake homes from the 1970s and '80s, larger North Ranch houses, and twenty neighborhoods with active HOAs." },
-  "santa-clarita-ca": { "name": "Santa Clarita", "state": "California", "abbr": "CA", "region": "Santa Clarita Valley", "blurb": "Family homes across the Santa Clarita Valley, from Valencia to Saugus." },
-  "culver-city-ca": { "name": "Culver City", "state": "California", "abbr": "CA", "region": "Westside", "blurb": "Bungalows and post-war homes in Sunkist Park, Carlson Park and Fox Hills, most with compact kitchens." },
-  "pacific-palisades-ca": { "name": "Pacific Palisades", "state": "California", "abbr": "CA", "region": "Westside", "blurb": "Rebuilding after the January 2025 fire, and updating the homes in The Highlands and Huntington Palisades that came through it." },
-  "calabasas-ca": { "name": "Calabasas", "state": "California", "abbr": "CA", "region": "Los Angeles County", "blurb": "1980s and '90s homes in The Oaks and Calabasas Hills, many with builder-grade kitchens." },
-  "beverly-hills-ca": { "name": "Beverly Hills", "state": "California", "abbr": "CA", "region": "Westside", "blurb": "Condo kitchens south of Wilshire to fully custom kitchens in the Flats and Trousdale Estates." },
-  "malibu-ca": { "name": "Malibu", "state": "California", "abbr": "CA", "region": "Los Angeles County", "blurb": "Coastal homes where salt air, Coastal Commission review and ocean views shape every remodel." },
-  "los-angeles-ca": { "name": "Los Angeles", "state": "California", "abbr": "CA", "region": "Los Angeles County", "blurb": "From Los Feliz duplexes to Sherman Oaks ranches." },
-  "monterey-county-ca": { "name": "Monterey County", "state": "California", "abbr": "CA", "region": "Central Coast", "blurb": "Private, game-managed ranch land in southern Monterey County: wild pig, blacktail deer, turkey and more." },
-  "iowa-city-ia": { "name": "Iowa City", "state": "Iowa", "abbr": "IA", "region": "Iowa City–Cedar Rapids Corridor", "blurb": "Hail, straight-line winds, ice dams and hard water: home services priced for Eastern Iowa." },
-  "iowa": { "name": "Iowa", "state": "Iowa", "abbr": "IA", "kind": "state", "blurb": "Statewide picks for Iowa businesses, from Des Moines to Cedar Rapids, Iowa City and the Quad Cities." }
+  "santa-monica-ca": {
+    "name": "Santa Monica",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Los Angeles County",
+    "blurb": "Beach-city homes on small lots, where ADUs and smart remodels make the most of every square foot."
+  },
+  "westlake-village-ca": {
+    "name": "Westlake Village",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Conejo Valley",
+    "blurb": "Lake homes from the 1970s and '80s, larger North Ranch houses, and twenty neighborhoods with active HOAs."
+  },
+  "santa-clarita-ca": {
+    "name": "Santa Clarita",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Santa Clarita Valley",
+    "blurb": "Family homes across the Santa Clarita Valley, from Valencia to Saugus."
+  },
+  "culver-city-ca": {
+    "name": "Culver City",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Westside",
+    "blurb": "Bungalows and post-war homes in Sunkist Park, Carlson Park and Fox Hills, most with compact kitchens."
+  },
+  "pacific-palisades-ca": {
+    "name": "Pacific Palisades",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Westside",
+    "blurb": "Rebuilding after the January 2025 fire, and updating the homes in The Highlands and Huntington Palisades that came through it."
+  },
+  "calabasas-ca": {
+    "name": "Calabasas",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Los Angeles County",
+    "blurb": "1980s and '90s homes in The Oaks and Calabasas Hills, many with builder-grade kitchens."
+  },
+  "beverly-hills-ca": {
+    "name": "Beverly Hills",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Westside",
+    "blurb": "Condo kitchens south of Wilshire to fully custom kitchens in the Flats and Trousdale Estates."
+  },
+  "malibu-ca": {
+    "name": "Malibu",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Los Angeles County",
+    "blurb": "Coastal homes where salt air, Coastal Commission review and ocean views shape every remodel."
+  },
+  "los-angeles-ca": {
+    "name": "Los Angeles",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Los Angeles County",
+    "blurb": "From Los Feliz duplexes to Sherman Oaks ranches."
+  },
+  "monterey-county-ca": {
+    "name": "Monterey County",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Central Coast",
+    "blurb": "Private, game-managed ranch land in southern Monterey County: wild pig, blacktail deer, turkey and more."
+  },
+  "iowa-city-ia": {
+    "name": "Iowa City",
+    "state": "Iowa",
+    "abbr": "IA",
+    "region": "Iowa City–Cedar Rapids Corridor",
+    "blurb": "Hail, straight-line winds, ice dams and hard water: home services priced for Eastern Iowa."
+  },
+  "iowa": {
+    "name": "Iowa",
+    "state": "Iowa",
+    "abbr": "IA",
+    "kind": "state",
+    "blurb": "Statewide picks for Iowa businesses, from Des Moines to Cedar Rapids, Iowa City and the Quad Cities."
+  },
+  "thousand-oaks-ca": {
+    "name": "Thousand Oaks",
+    "state": "California",
+    "abbr": "CA",
+    "region": "Conejo Valley",
+    "blurb": "1960s to 1980s ranch and tract houses in Thousand Oaks and Newbury Park, with solid bones and dated kitchens."
+  }
 }

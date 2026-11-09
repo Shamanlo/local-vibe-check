@@ -21,7 +21,7 @@ export function splitItem(text) {
   return { label, value, detail, text };
 }
 
-const NOTE = /^(Prices|National averages|Iowa averages|The AI chat|All prices|Price ranges|Comparison)|ballpark|as published|placeholder/i;
+const NOTE = /^(Prices|National averages|Iowa averages|The AI chat|All prices|Price ranges|Comparison|Every detail in this)|ballpark|as published|placeholder|Map data ©/i;
 const isListBlock = (block) => block.length > 1 && block.slice(1).some(isList);
 const isList = (l) => /^(•|-|\d+\.)\s+/.test(l) || (EMOJI_LEAD.test(l) && /:/.test(l) && !CTA_START.test(l) && !/^(📍|🌐|✉️|🕗|📞)/u.test(l));
 

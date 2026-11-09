@@ -241,7 +241,7 @@ const checkDot = `<span class="check-dot" aria-hidden="true"></span>`;
 
 const shortCard = (s) => `<figure class="short">
   <button class="short-play" type="button" data-yt="${s.id}" aria-label="Play: ${esc(cleanTitle(s.title))}"><img src="${s.vthumb}" alt="" loading="lazy" width="360" height="640"><span class="play" aria-hidden="true"></span></button>
-  <figcaption><b>${esc(cleanTitle(s.title))}</b>${s.parent ? `<a href="${s.parent.url}">Full ${s.parent.kind === "pick" ? "video" : "price guide"} →</a>` : `<a href="${s.yt}" rel="noopener" target="_blank">Watch on YouTube →</a>`}</figcaption>
+  <figcaption><b>${esc(cleanTitle(s.title))}</b>${s.parent ? `<a href="${s.parent.url}">Full ${{ pick: "video", spotlight: "spotlight" }[s.parent.kind] || "price guide"} →</a>` : `<a href="${s.yt}" rel="noopener" target="_blank">Watch on YouTube →</a>`}</figcaption>
 </figure>`;
 
 const awardStamp = (small) => `<span class="stamp${small ? " stamp-sm" : ""}">${checkDot}<span>Passed</span></span>`;
@@ -543,6 +543,8 @@ function spotlightPage(v) {
   const b = v.biz || {};
   const name = b.legalName || v.headline;
   const how = v.parsed.sections.find((s) => s.type === "list" && /how it works/i.test(s.heading));
+  // Any other lists in the description ("When a storm hits", "The Cuevas promise", ...).
+  const extra = v.parsed.sections.filter((s) => s.type === "list" && s !== how);
   const vibe = v.parsed.sections.find((s) => s.type === "text" && /vibe/i.test(s.heading));
   const files = v.award ? awardFiles(v) : null;
   const sealTitle = `${v.business || name}: Vibe check passed. Local Vibe Check Business Spotlight ${YEAR}`;
@@ -568,9 +570,11 @@ function spotlightPage(v) {
   <div class="wrap layout">
     <article class="prose">
       ${v.parsed.intro.slice(1).filter((p) => !(b.services && /^What they build:/.test(p))).map((p, i) => `<p${i === 0 ? ' class="intro"' : ""}>${money(p)}</p>`).join("\n      ")}
-      ${b.services ? `<h2>What they build</h2><ul class="chips">${b.services.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>${inVideo ? `<p class="muted">In this video: ${esc(inVideo)}</p>` : ""}` : ""}
+      ${b.services ? `<h2>What they do</h2><ul class="chips">${b.services.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>${inVideo ? `<p class="muted">In this video: ${esc(inVideo)}</p>` : ""}` : ""}
       ${chaptersBlock(v)}
       ${how ? `<h2>How it works</h2><ol class="step-list">${how.items.map((it) => `<li><b>${esc(it.label)}</b><span>${esc(it.value)}</span></li>`).join("")}</ol>` : ""}
+      ${extra.map((s) => `<h2>${esc(s.heading)}</h2>${bulletList(s)}`).join("\n      ")}
+      ${v.shortVid ? `<div class="short-inline"><div><span class="eyebrow">Short</span><h3>The quick version</h3><p>The whole spotlight in under a minute. Easy to share with anyone looking for ${esc((b.type || "a pro").toLowerCase())} help.</p><a href="${v.shortVid.yt}" rel="noopener" target="_blank">Open on YouTube Shorts →</a></div>${shortCard(v.shortVid)}</div>` : ""}
       ${vibe ? `<h2>The vibe from clients</h2><p class="big-quote">${esc(vibe.text.charAt(0).toUpperCase() + vibe.text.slice(1))}</p>` : ""}
       ${locs.length ? `<h2>Locations</h2><div class="locs">${locs.map((l) => `<div class="loc">${pinSvg("lc-" + slugify(l.label), "pin")}<div><b>${esc(l.label)}</b><span>${/\d/.test(l.address) ? ext("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(name + " " + l.address), l.address) : esc(l.address)}</span></div></div>`).join("")}</div>` : ""}
       ${b.serves ? `<p class="muted">Serving ${esc(b.serves)}.</p>` : ""}
@@ -589,6 +593,7 @@ function spotlightPage(v) {
       </div>
       ${embedBlock("code-seal", "Award seal", "The round seal, for websites, socials and print.", files.seal, sealTitle, v.url, 200, 200)}
       ${embedBlock("code-bar", "Footer badge", "A horizontal version for website footers and email signatures.", files.bar, sealTitle, v.url, 300, 83)}` : ""}
+      ${v.parsed.notes.length ? `<div class="notice" role="note">${v.parsed.notes.map((n) => `<p>${esc(n)}</p>`).join("")}</div>` : ""}
       ${v.parsed.nominate ? `<div class="nominate"><h2>Know a business that deserves a Local Vibe Check?</h2><p>Tell us in the comments on the video.</p><a class="btn btn-primary" href="${v.yt}" rel="noopener" target="_blank">Comment on YouTube</a></div>` : ""}
     </article>
     <aside class="facts" aria-label="Business facts">
